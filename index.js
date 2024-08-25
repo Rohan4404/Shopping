@@ -15,7 +15,8 @@ app.use(cors());
 
 
 // Database connection with MongoDB
-const dbURI = 'mongodb+srv://rohansharma99anc:KFxx3IYNwZmwsYK2@cluster0.fbxch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+// const dbURI = 'mongodb+srv://rohansharma99anc:KFxx3IYNwZmwsYK2@cluster0.fbxch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+   const dbURI = 'mongodb+srv://rohansharma99anc:KFxx3IYNwZmwsYK2@cluster0.fbxch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 console.log(`Connecting to MongoDB at ${dbURI}`);
 mongoose.connect(dbURI)
     .then(() => console.log('Connected to MongoDB'))
